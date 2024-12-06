@@ -1,0 +1,18 @@
+cmake_minimum_required(VERSION 3.10)
+
+project(TyreGripSimulation VERSION 1.0)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED true)
+
+include_directories(include)
+
+# Source files
+file(GLOB_RECURSE GUI_SOURCES src/gui/*.cpp)
+file(GLOB_RECURSE PHYSICS_SOURCES src/physics/*.cpp)
+
+add_executable(tyre_grip_simulation ${GUI_SOURCES} ${PHYSICS_SOURCES})
+
+set_target_properties(tyre_grip_simulation PROPERTIES
+    RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin
+)
