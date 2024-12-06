@@ -18,7 +18,7 @@ If you prefer to build from source, or the binary for system isn't available:
 
 Before installing make sure the following are installed on your system.
 
-- CMAKE (minimum version 3.10)
+- CMAKE (minimum version 3.20)
 - A C++ compiler
 - Build tools (make, ninja, etc.)
 
