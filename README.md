@@ -1,7 +1,7 @@
 
 # Tyre Grip Simulator
 
-A C++ application designed to simulate realistic tyre behavior on various surfaces, and under various conditions. The program is ideal for enhuisasts or anyone interested in the workings of a tyre.
+A C++ application designed to simulate realistic tyre behavior on various surfaces, and under various conditions. The program is ideal for enthusiasts or anyone interested in the workings of a tyre.
 
 > [!IMPORTANT]
 > This program is a simulation and should not be used as a subsitute for real world testing or vehicle handling analysis. I, or any contributer, is not responsible for any consequences, damages, or accidents that may occur as a result of using this software inappropriately or as a replacement for real-world data and testing. 
